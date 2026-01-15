@@ -1,0 +1,8 @@
+{
+  "name": "Adv Dairy",
+  "description": "A professional digital case management dairy for advocates to manage court listings, case details, and daily work schedules with AI-powered legal insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
