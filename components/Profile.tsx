@@ -85,6 +85,14 @@ const Profile: React.FC<ProfileProps> = ({ user, cases, onLogout, onBack, onUpda
 
         <div className="space-y-3">
           <button 
+            disabled
+            className="w-full flex items-center justify-between p-4 bg-slate-50 rounded-2xl text-slate-400 cursor-not-allowed border border-slate-100"
+          >
+            <span className="font-bold text-sm uppercase tracking-wide">Subscription Plan</span>
+            <span className="text-xs font-bold bg-slate-200 px-2 py-1 rounded">PRO (FREE TRIAL)</span>
+          </button>
+          
+          <button 
             onClick={onLogout}
             className="w-full flex items-center justify-center gap-2 p-5 bg-red-50 text-red-600 font-bold rounded-2xl hover:bg-red-100 transition-all border border-red-100 shadow-sm active:scale-[0.98]"
           >
